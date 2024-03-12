@@ -9,9 +9,7 @@
  */
 int check_cycle(listint_t *list)
 {
-	listint_t *s = list;
-	
-	listint_t *f = list;
+	listint_t *s = list, *f = list;
 	
 	while(f && f->next)
 	{
